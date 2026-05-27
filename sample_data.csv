@@ -1,0 +1,4 @@
+payer,amount,participants,split
+Aman,1200,"Aman,Rahul,Priya",400.0
+Sara,800,"Rahul,Sara",400.0
+Priya,500,"Aman,Sara,Priya",166.66666666666666
