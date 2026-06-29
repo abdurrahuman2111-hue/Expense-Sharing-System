@@ -1,0 +1,86 @@
+1. Introduction
+
+This project is a Google Pay-inspired Expense Sharing System developed using Python and Data Science libraries. The system helps groups fairly divide expenses and settle balances efficiently.
+
+2. Methodology
+Equal Splitting Algorithm
+
+Each expense is divided equally among participants:
+
+Split Amount=
+Number of Participants
+Total Expense
+	​
+
+
+Example
+Total Expense = ₹600
+Participants = 3
+
+Each participant owes:
+
+₹200
+
+3. Data Processing Steps
+User input collection
+Data validation
+Transaction storage using Pandas
+Expense aggregation
+Balance calculation
+Settlement optimization
+4. Fairness Logic
+
+The system:
+
+Ensures equal contribution among participants
+Tracks overpayments and underpayments
+Minimizes number of transactions
+Prevents duplicate settlement entries
+5. Edge Cases Handled
+Uneven Contributions
+
+If one user pays more:
+
+Extra amount becomes credit balance
+Missing Payments
+
+If a participant does not pay:
+
+System marks them as debtor
+Refund Handling
+
+Negative transactions can be added for refunds.
+
+Empty Participant List
+
+System safely ignores invalid expense entries.
+
+6. Data Science Implementation
+
+Libraries used:
+
+Pandas
+NumPy
+Matplotlib
+
+Analytics included:
+
+Spending distribution
+User contribution analysis
+Transaction trends
+Balance tracking
+7. Results and Insights
+Sample Insight
+Aman contributed the highest expense amount.
+Rahul had the highest pending balance.
+Expense settlement reduced transactions efficiently.
+8. Challenges Faced
+Handling floating-point precision
+Managing partial payments
+Designing fair settlement logic
+9. Future Improvements
+GUI using Tkinter or Streamlit
+Database integration
+QR payment support
+Mobile app version
+AI-based spending prediction
